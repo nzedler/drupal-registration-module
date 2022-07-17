@@ -1,0 +1,7 @@
+drupal_registration_module.register:
+  path: '/register'
+  defaults:
+    _form: '\Drupal\drupal_registration_module\Form\RegistrationForm'
+    _title: 'Registrieren'
+  requirements:
+    _permission: 'access content'

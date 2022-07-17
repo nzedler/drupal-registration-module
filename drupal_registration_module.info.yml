@@ -1,0 +1,5 @@
+name: Registration Module for E-Gov
+description: Creates a /register route where users can register.
+package: examples
+type: module
+core_version_requirement: ^8.9 || ^9
